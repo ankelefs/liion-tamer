@@ -16,7 +16,7 @@ This is a DIY Lithium-Ion 18650 battery cell health status tester, charger, capa
 ## Summary
 **What:** Battery cell health status tester, charger, capacity tester and self-discharge tester
 
-**Current stadium:** 🟢⚪️⚪️⚪️⚪️⚪️⚪️ Prototyping
+**Current stadium:** 🟢⚪️⚪️⚪️⚪️⚪️⚪️⚪️ Prototyping
 
 **Designed for:** Lithium-Ion 18650 battery cells 🔋
 
@@ -25,4 +25,4 @@ This is a DIY Lithium-Ion 18650 battery cell health status tester, charger, capa
 
 
 ## Predicted plan
-**Prototype &nbsp; ➡ &nbsp; Subcircuit Fusion &nbsp; ➡ &nbsp; Testing &nbsp; ➡ &nbsp; PCB design &nbsp; ➡ &nbsp; 3D design &nbsp; ➡ &nbsp; PCB manufacturing &nbsp; ➡ &nbsp; Assembly**
+**Prototype &nbsp; ➡ &nbsp; Subcircuit Fusion &nbsp; ➡ &nbsp; Testing &nbsp; ➡ &nbsp; PCB design &nbsp; ➡ &nbsp; 3D design &nbsp; ➡ &nbsp; PCB manufacturing &nbsp; ➡ &nbsp; Assembly &nbsp; ➡ &nbsp; Finished**
