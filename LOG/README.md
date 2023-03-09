@@ -26,5 +26,7 @@ I got some li-ion cells from a classmate. These had voltages around 0.5 to 0.7 V
 **FURTHER TESTING:** A further test should to the same test as described above, but also immediately start cell-charging. Then the voltage "self-drop" rate should be measured again. 
 
 I also made (but not tested) the charging circuit from this schematic:
+![schematic](https://user-images.githubusercontent.com/18615800/224134239-04de22d5-ca76-45ea-b223-604aa53ab282.jpeg)
 
 Here is a picture of the circuit:
+![circuit](https://user-images.githubusercontent.com/18615800/224134266-80909a26-9520-4cc2-a958-81eabdf17536.JPG)
