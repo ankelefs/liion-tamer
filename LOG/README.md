@@ -26,7 +26,7 @@ Setup flowcharts for the different modi I want the liion-tamer (LT) system to do
 ### Tuesday, February 7th:
 Got feedback on my circuit from a friend in my class: try using a bootstrapped N-type MOSFET as a high side switch for less "live wires" and active power consumption. 
 
-**R&R:** A bootstrapped, high side NMOS, although may draw less power in active mode, does not yield a good result for this type of implementation. The main reason is that the bootstrapped high side NMOS seems to be best suited for high frequency switching operations, because when the NMOS is turned ON over a "long time", the capacitor will be slowly drained, finally turning it OFF. Since I want to charge a cell, over a long time, I will stick to a high side PMOS alternative.
+**R&R:** A bootstrapped, high side NMOS, although may draw less power in active mode, does not yield a good result for this type of implementation. The main reason is that the bootstrapped high side NMOS seems to be best suited for high frequency switching operations, because when the NMOS is turned ON for a "long time", the capacitor will be slowly drained, finally turning it OFF. Since I want to charge a cell, over a long time, I will stick to a high side PMOS alternative.
 
 
 <br>
