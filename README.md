@@ -1,7 +1,7 @@
 # Li-Ion Tamer 🦁
 
 
-ℹ️ **Ver**sion 1 **Rev**ision 1 &nbsp;&nbsp;&nbsp;&nbsp; **Creator:** Anker Lefstad &nbsp;&nbsp;&nbsp;&nbsp; **Project start:** February 17th 2023 &nbsp;&nbsp;&nbsp;&nbsp; **Project finished:** Currently ongoing
+ℹ️ **Ver**sion 1 **Rev**ision 1 &nbsp;&nbsp;&nbsp;&nbsp; **Creator:** Anker Lefstad &nbsp;&nbsp;&nbsp;&nbsp; **Project start:** February 6th 2023 &nbsp;&nbsp;&nbsp;&nbsp; **Project finished:** Currently ongoing
 
 
 <br>
