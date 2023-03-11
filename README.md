@@ -7,7 +7,7 @@
 <br>
 
 
-This is a DIY Lithium-Ion 18650 battery cell health status tester, charger, capacity tester and self-discharge tester - **all-in-one**. 🔋 This is designed with refurbushing old and reused Lithium-Ion 18650 battery cells in mind, and will feature up to six cell slots for parallell operation on the cells. The design shall be designed with several modi: charge only (CO), charge and check health (CCH), capacity test (CT) and self-discharge test (SDT), all of which can be individually assigned for each cell slot. 
+This is a DIY Lithium-Ion 18650 battery cell health status tester, charger, capacity tester and self-discharge tester - **all-in-one**. 🔋 This is designed with refurbushing old and reused Lithium-Ion 18650 battery cells in mind. The design shall be designed with several modi: charge only (CO), charge and check health (CCH), capacity test (CT) and self-discharge test (SDT). I will create a total circuit that can do all this for one battery cell at a time, and extending the capacity will yield in more of these to be made. 
 
 
 <br>
