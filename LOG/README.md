@@ -46,3 +46,23 @@ I also made (but not tested) the charging circuit from this schematic:
 
 Here is a picture of the circuit:
 ![circuit](https://user-images.githubusercontent.com/18615800/224134266-80909a26-9520-4cc2-a958-81eabdf17536.JPG)
+
+
+<br>
+
+
+### Saturday, March 11th:
+**T:** Tested the revive method (4 V, 1A for 25 seconds) and immediately put it to charging (with another TC4056 circuit power directly via a USB charger). 
+
+**R:** Worked perfectly. The cell did not even get hot. It is now revived and fully charged, but I have not conducted a health status check.
+
+I worked some more on the Charge Only (CO) mode circuit and code, see picture below. 
+![circuit-number-2](https://user-images.githubusercontent.com/18615800/224506289-9aa0dd79-43e8-4239-9168-c21d3db705b9.JPG)
+I changed from trying to use MOSFETs to just using a relay operating from a 5 V signal that the Arduino can provide. The reason is that with testing different topologies for the MOSFETs, each had their drawbacks, and wanting to make this first circuit easy and of course, safe, I adapted to a relay. The high side PMOS worked, but at startup or pressing the Arduino's "Reset" button, a voltage spike to 4 V at the battery output happened. This is something I seriously want to avoid, as to not damage the cell. A low side NMOS worked better, but for some reason, when I wanted to turn off the charger, it was still on even though the gate was put to 0 V. I could probably troubleshoot some more and find an answer as to why that happens, but since I have some relays laying around and they are safe and secure for these types of operations, and I don't need to worry about voltage potentials along the circuit, it seems like a good alternative.
+
+The reason I did not choose a relay at the beginning was that I wanted to try MOSFETs, and that I thought the Arduino could not handle many relays at the same time. But it turns out it can! Since I power the Arduino from an external source (not USB), that source is powering the relay (@~450 mA draw ON-state) and the signal from the Arduino only draws about 2 mA. The Arduino can supply 0.8 A, so we have plenty of wiggle room. 
+
+I also added a LCD display and a push button to provide a better user interface. I am not sure if I opt for the 16x2 LCD display or if I want to use an OLED display instead. It seems that the Arduino Nano Every will be streched to its limit regarding available PINs either way, so I can only make the Li-Ion Tamer for a single battery cell and must thus make more of these (whole) systems to expand capacity for multiple cells, so I think I will just choose the most cheap option of the LCD and OLED screen. 
+
+Here is the **Rev**ision 2 Charge Only circuit. It still misses a temperature measurement. Also: the code is not finished.
+![schematics-revision-2](https://user-images.githubusercontent.com/18615800/224507117-a109136d-9b57-4c46-a87c-3d0138cd19f8.jpeg)
