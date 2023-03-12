@@ -7,9 +7,9 @@ This is the complete development log for the Li-Ion Tamer project.
 
 
 ## Abbreviations
-**R&R** = Research and results
-**T** = Test
-**R** = Result
+**R&R** = Research and results <br>
+**T** = Test <br>
+**R** = Result <br>
 **FT** = Further testing
 
 
