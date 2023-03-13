@@ -1,6 +1,7 @@
-# Li-Ion Tamer LOG
+# Li-Ion Tamer journal
 
-This is the complete development log for the Li-Ion Tamer project.
+
+This is the complete development journal for the Li-Ion Tamer project.
 
 
 <br>
