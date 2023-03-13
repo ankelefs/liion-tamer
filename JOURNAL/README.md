@@ -73,6 +73,6 @@ Here is the **Rev**ision 2 Charge Only circuit. It still misses a temperature me
 
 
 ### Sunday, March 12th:
-**R&R:** Researched the TC4056A charger circuit IC and found that the STDBY-pin on the IC can be used as a charge status indicator. When it is in standby the voltage is ~3.7 V and ~1.3 V when charging. In the code, when charging is initiated, I enable the charger and delay the code 3,5 seconds to give the charger time to register that the battery cell is there and start charging, bringing the STDBY voltage down, before then monitoring that same voltage.
+**R&R:** Researched the TC4056A charger circuit IC and found that the STDBY-pin on the IC can be used as a charge status indicator. When it is in standby the voltage is ~3.7 V and ~1.3 V when charging. In the code, when charging is initiated, I enable the charger and delay the code 3.5 seconds to give the charger time to register that the battery cell is there and start charging, bringing the STDBY voltage down, before then monitoring that same voltage.
 
 I have also written some more on the code, and the Charge Only mode is starting to get close to finished. I first need a bigger breadboard to work with before continuing. At this point, where the code for this mode is soon finished, I also have to make a state machine diagram to ensure I have implemented the right things at the right places.
